@@ -29,7 +29,7 @@ public:
     }
 
     void setMolarities(Molarities molarities) {
-        molarities_ = molarities_;
+        molarities_ = molarities;
     }
 };
 

@@ -18,7 +18,7 @@ int main() {
     op1.setMW(mw);
     op1.setMoleF(moleF);
     try {
-        std::cout << "Mean molar weight 1 : " << op1.apply() << "std::endl";
+        std::cout << "Mean molar weight 1 : " << op1.apply() << std::endl;
     }
     catch (std::exception& e) {
         std::cout << e.what() << std::endl;
@@ -28,7 +28,7 @@ int main() {
     op2.setMW(mw);
     op2.setMassF(massF);
     try {
-        std::cout << "Mean molar weight 2 : " << op2.apply() << "std::endl";
+        std::cout << "Mean molar weight 2 : " << op2.apply() << std::endl;
     }
     catch (std::exception& e) {
         std::cout << e.what() << std::endl;

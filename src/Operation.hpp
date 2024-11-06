@@ -7,8 +7,8 @@
 template<typename T>
 class Operation {
 protected:
-    virtual T calc_();
-    virtual bool checkPrerequisites();
+    virtual T calc_() = 0;
+    virtual bool checkPrerequisites() = 0;
 public:
     T apply() {
         if (checkPrerequisites()) {
