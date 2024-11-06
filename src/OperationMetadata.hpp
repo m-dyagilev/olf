@@ -1,0 +1,4 @@
+#ifndef OPERATION_METADATA_H
+#define OPERATION_METADATA_H
+
+#endif
